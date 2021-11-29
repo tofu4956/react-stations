@@ -15,6 +15,7 @@ import './App.css'
         <h1>Dogアプリ</h1>
         <p>犬の画像を表示します</p>
         <img src={dogUrl}></img>
+        <button onClick={setDogUrl("images.dog.ceo/breeds/hound-english/n02089973_1132.jpg")}>更新</button>
       </header>
     )
   }
