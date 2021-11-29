@@ -9,7 +9,7 @@ import './App.css'
   */
   export const App = () => {
 
-    const [dogUrl, setDogUrl] = useState("https://images.dog.ceo/breeds/spaniel-brittany/n02101388_6057.jpg");
+    const [dogUrl, setDogUrl] = React.useState("https://images.dog.ceo/breeds/spaniel-brittany/n02101388_6057.jpg");
     return (
       <header>
         <h1>Dogアプリ</h1>
