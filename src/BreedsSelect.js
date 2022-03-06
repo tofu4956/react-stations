@@ -26,9 +26,9 @@ export const BreedsSelect = ({breeds, selectedBreed, setSelectedBreed, dogsUrl, 
         <button onClick={onClickSelectListener}>選択</button>
       </div>
       <div className="dog-list-item">
-            {dogsUrl.map((url, index) => (
-              <img className="img-list" key={index} src={url} />
-            ))}
+        {dogsUrl.map((url, index) => (
+          <img className="img-list" key={index} src={url} />
+        ))}
       </div>
     </>
   )
