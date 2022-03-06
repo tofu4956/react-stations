@@ -16,8 +16,10 @@ import {DogListContainer} from './DogListContainer'
       <>
         <Header />
         <div id="app_main">
-          <DogListContainer />
           <Description />
+        </div>
+        <div id="app_doglist">
+          <DogListContainer />
         </div>
       </>
     )

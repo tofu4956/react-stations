@@ -34,3 +34,9 @@ header {
   object-fit: contain;
 }
 
+#app_doglist {
+  border-top: 1px solid #eee;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
