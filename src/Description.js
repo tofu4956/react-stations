@@ -1,6 +1,6 @@
 // DO NOT DELETE
 import React from 'react';
-import DogImage from './DogImage';
+import {DogImage} from './DogImage';
 
 export const Description = () => {
   const [dogUrl, setDogUrl] = React.useState("https://images.dog.ceo/breeds/spaniel-brittany/n02101388_6057.jpg");
