@@ -5,7 +5,7 @@ const DogImage = (props) => {
 
   return (
 // eslint-disable-next-line react/prop-types
-     <img src={props.dogurl}></img>
+     <img src={props.url}></img>
   )
 }
 

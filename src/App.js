@@ -13,7 +13,7 @@ import Header from './Header';
   export const App = () => {
     return (
       <>
-        <Header/>
+        <Header />
         <div id="app_main">
           <p className="description-item">犬の画像を表示します</p>
           <Description />

@@ -11,7 +11,7 @@ const Description = () => {
   }
   return (
     <div className="image-item">
-      <DogImage dogurl={dogUrl}/>
+      <DogImage url={dogUrl} />
       <button onClick={randomDoge}>更新</button>
     </div>
   )
