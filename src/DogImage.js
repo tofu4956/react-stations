@@ -1,5 +1,5 @@
 // DO NOT DELETE
-import * as React from 'react';
+import React from 'react';
 
 const DogImage = (props) => {
 

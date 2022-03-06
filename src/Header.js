@@ -1,6 +1,7 @@
 // DO NOT DELET
 
-import * as React from 'react'
+import React from 'react'
+
 const Header = () => {
   return (
     <header>
