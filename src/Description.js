@@ -2,7 +2,7 @@
 import React from 'react';
 import DogImage from './DogImage';
 
-const Description = () => {
+export const Description = () => {
   const [dogUrl, setDogUrl] = React.useState("https://images.dog.ceo/breeds/spaniel-brittany/n02101388_6057.jpg");
   const randomDoge = async () => {
     await fetch('https://dog.ceo/api/breeds/image/random')
@@ -19,5 +19,3 @@ const Description = () => {
     </>
   )
 }
-
-export default Description
