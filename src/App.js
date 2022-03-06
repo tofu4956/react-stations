@@ -18,7 +18,7 @@ import {DogListContainer} from './DogListContainer'
         <div id="app_main">
           <Description />
         </div>
-        <div id="app_doglist">
+        <div>
           <DogListContainer />
         </div>
       </>

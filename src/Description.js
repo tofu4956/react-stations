@@ -1,4 +1,3 @@
-// DO NOT DELETE
 import React from 'react';
 import {DogImage} from './DogImage';
 
