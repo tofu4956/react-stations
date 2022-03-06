@@ -3,7 +3,8 @@
 import React from 'react'
 import './App.css'
 import {Description} from './Description';
-import {Header} from './Header';
+import {Header} from './Header'
+import {DogListContainer} from './DogListContainer'
 
 /**
   * 
@@ -15,6 +16,7 @@ import {Header} from './Header';
       <>
         <Header />
         <div id="app_main">
+          <DogListContainer />
           <Description />
         </div>
       </>
