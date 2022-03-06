@@ -59,6 +59,7 @@ header {
 
 .dog-list-item {
   padding-top: 15px;
+  padding-bottom: 15px;
   display: grid;
   gap: 12px;
   margin: auto;
