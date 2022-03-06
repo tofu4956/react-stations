@@ -10,10 +10,12 @@ const Description = () => {
       .then(data => setDogUrl(data.message))
   }
   return (
-    <div className="image-item">
-      <DogImage url={dogUrl} />
-      <button onClick={randomDoge}>更新</button>
-    </div>
+    <>
+      <div className="image-item">
+        <DogImage url={dogUrl} />
+        <button onClick={randomDoge}>更新</button>
+      </div>
+    </>
   )
 }
 
