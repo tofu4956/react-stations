@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: darkgray;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#app_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 4px;
+}
+
+#app_main > .description-item {
+  flex: 3;
+  text-align: center;
+}
+
+#app_main > .image-item {
+  flex: 1;
+  justify-content: center;
+
+  display: flex;
+  gap: 12px 4px;
+  flex-flow: column;
+  object-fit: contain;
+}
+
