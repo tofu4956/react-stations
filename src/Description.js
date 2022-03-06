@@ -11,6 +11,7 @@ const Description = () => {
   }
   return (
     <>
+      <p className="description-item">犬の画像を表示します</p>
       <div className="image-item">
         <DogImage url={dogUrl} />
         <button onClick={randomDoge}>更新</button>

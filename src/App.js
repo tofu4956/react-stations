@@ -15,7 +15,6 @@ import Header from './Header';
       <>
         <Header />
         <div id="app_main">
-          <p className="description-item">犬の画像を表示します</p>
           <Description />
         </div>
       </>
